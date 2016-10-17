@@ -12,6 +12,7 @@ function drawPerson(person) {
   document.write(person.name);
   document.write(person.catchphrase);
   var img = document.createElement("img");
+  console.log("asdf")
   img.src = (person.representation);
   $('#image').css({height:person.height});
   $('#image').attr("src", person.representation);
