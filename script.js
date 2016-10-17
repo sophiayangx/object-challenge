@@ -11,6 +11,7 @@ drawPerson(person)
 function drawPerson(person) {
   document.write(person.name);
   document.write(person.catchphrase);
+  document.createElement(person.representation);
   person.catchphrase
 }
   
