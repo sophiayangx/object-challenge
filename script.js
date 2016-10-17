@@ -5,10 +5,11 @@ var person = {
   favoriteColor: "blue",
   catchphrase: "Woohoo!"
 }
+
 drawPerson(person)
 
 function drawPerson(person) {
-  console.log(person.catchphrase)
+  person.catchphrase = "Sophia"
 }
-
+  
 drawPerson("Sophia")
