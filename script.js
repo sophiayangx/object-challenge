@@ -8,5 +8,7 @@ var person = {
 drawPerson(person)
 
 function drawPerson(person) {
-console.log(person.catchphrase)
+  person.catchphrase="Ralph"
 }
+
+person("Sophia")
