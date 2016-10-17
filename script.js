@@ -11,10 +11,13 @@ drawPerson(person)
 function drawPerson(person) {
   document.write(person.name);
   document.write(person.catchphrase);
-  document.createElement(person.representation);
+  var img = document.createElement("img");
+  img.src = (person.representation)
   person.catchphrase
 }
   
+
+
 drawPerson("Sophia")
 
 //$('person-container').append( print(person) );
