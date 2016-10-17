@@ -12,12 +12,6 @@ function drawPerson(person) {
   document.write(person.name);
   document.write(person.catchphrase);
   var img = document.createElement("img");
-  img.src = (person.representation)
-  person.catchphrase
+  img.src = (person.representation);
+  $(img).css({height:person.height})
 }
-  
-
-
-drawPerson("Sophia")
-
-//$('person-container').append( print(person) );
