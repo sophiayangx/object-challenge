@@ -8,7 +8,7 @@ var person = {
 drawPerson(person)
 
 function drawPerson(person) {
-  person.catchphrase="Ralph"
+  console.log(person.catchphrase)
 }
 
-person("Sophia")
+drawPerson("Sophia")
