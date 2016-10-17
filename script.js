@@ -9,7 +9,8 @@ var person = {
 drawPerson(person)
 
 function drawPerson(person) {
-  document.write(person.name)
+  document.write(person.name);
+  document.write(person.catchphrase);
   person.catchphrase
 }
   
