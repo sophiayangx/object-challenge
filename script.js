@@ -1,9 +1,9 @@
 var person = {
   name: "Sophia",
-  representation: "http://i.dailymail.co.uk/i/pix/2016/03/14/19/322C3FA100000578-0-image-a-13_1457982438669.jpg",
+  representation: "https://s-media-cache-ak0.pinimg.com/236x/eb/5c/78/eb5c78657282a7c7715939aac4553dcb.jpg",
   height: "500px",	
   favoriteColor: "blue",
-  catchphrase: "Get pumped!"
+  catchphrase: "Woohoo!"
 }
 drawPerson(person)
 
