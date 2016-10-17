@@ -9,10 +9,10 @@ var person = {
 drawPerson(person)
 
 function drawPerson(person) {
-  document.write(person.name);
-  document.write(person.catchphrase);
-  var img = document.createElement("img");
-  img.src = (person.representation);
+//  document.write(person.name);
+//  document.write(person.catchphrase);
+//  var img = document.createElement("img");
+//  img.src = (person.representation);
   $('#image').css({height:person.height});
   $('#image').attr("src", person.representation);
 }
