@@ -14,4 +14,4 @@ function drawPerson(person) {
   
 drawPerson("Sophia")
 
-console.log("hi")
+$('person-container').append( print(person) );
