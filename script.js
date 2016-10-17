@@ -14,6 +14,6 @@ function drawPerson(person) {
   var img = document.createElement("img");
   img.src = (person.representation);
   $(img).css({height:person.height});
-  $(img).css({height:person.height});
+  $(img).attr({"src", person.representation});
 }
   
