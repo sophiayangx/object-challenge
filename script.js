@@ -9,9 +9,10 @@ var person = {
 drawPerson(person)
 
 function drawPerson(person) {
+  document.write(person.name)
   person.catchphrase
 }
   
 drawPerson("Sophia")
 
-$('person-container').append( print(person) );
+//$('person-container').append( print(person) );
